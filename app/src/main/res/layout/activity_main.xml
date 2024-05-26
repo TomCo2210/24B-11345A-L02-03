@@ -54,6 +54,17 @@
         android:textSize="@dimen/score_size"
         android:textStyle="bold" />
 
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_countryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/main_IMG_flag"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:textSize="@dimen/score_size"
+        tools:text="Country Name"
+        android:textStyle="bold"
+        android:textColor="@color/black"   />
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/main_IMG_flag"
         android:layout_width="@dimen/flag_width"
